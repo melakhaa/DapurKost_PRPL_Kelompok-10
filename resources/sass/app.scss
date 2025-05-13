@@ -1,0 +1,76 @@
+@import "pages/home";
+@import "pages/create";
+@import "pages/login";
+@import "components/header";
+@import "components/sidebar";
+@import "bootstrap/scss/bootstrap";
+
+* {
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to bottom, #0f5132, #e6d5b8);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.card {
+    border-radius: 10px;
+    border: none;
+}
+.btn-warning {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    color: white;
+}
+.btn-warning:hover {
+    background-color: #e76b00;
+    border-color: #e76b00;
+    color: white;
+}
+.input-group-text {
+    border-right: none;
+}
+.form-control {
+    border-left: none;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu-container {
+    .card {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .btn-warning {
+        background-color: #fd7e14;
+        border-color: #fd7e14;
+        color: white;
+    }
+
+    .btn-warning:hover {
+        background-color: #e76b00;
+        border-color: #e76b00;
+        color: white;
+    }
+
+    .input-group-text {
+        border-right: none;
+    }
+
+    .form-control {
+        border-left: none;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
